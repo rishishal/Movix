@@ -5,6 +5,12 @@
   .resultNotFound {
     font-size: 24px;
     color: var(--black-light);
+    img {
+      width: 50rem;
+      height: 50rem;
+      position: relative;
+      left: 12rem;
+    }
   }
   .pageTitle {
     font-size: 24px;
