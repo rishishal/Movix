@@ -89,7 +89,7 @@ const DetailsBanner = ({ video, crew }) => {
                         </div>
                       )}
 
-                      {data.release_date && (
+                      {data?.release_date && (
                         <div className='infoItem'>
                           <span className='text bold'>Release Date: </span>
                           <span className='text'>
@@ -98,7 +98,7 @@ const DetailsBanner = ({ video, crew }) => {
                         </div>
                       )}
 
-                      {data.runtime && (
+                      {data?.runtime && (
                         <div className='infoItem'>
                           <span className='text bold'>Run Time: </span>
                           <span className='text'>

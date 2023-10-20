@@ -1,4 +1,5 @@
 import "./Footer.scss";
+import { Link } from "react-router-dom";
 
 import {
   FaFacebookF,
@@ -30,16 +31,26 @@ const Footer = () => {
         </div>
         <div className='socialIcons'>
           <span className='icon'>
-            <FaFacebookF />
+            <Link
+              to={"https://www.facebook.com/profile.php?id=100021258036334"}
+            >
+              <FaFacebookF />
+            </Link>
           </span>
           <span className='icon'>
-            <FaInstagram />
+            <Link to={"https://www.instagram.com/rishishal/"}>
+              <FaInstagram />
+            </Link>
           </span>
           <span className='icon'>
-            <FaTwitter />
+            <Link to={"#"}>
+              <FaTwitter />
+            </Link>
           </span>
           <span className='icon'>
-            <FaLinkedin />
+            <Link to={"https://www.linkedin.com/in/rishi-kumar-3355131b4/"}>
+              <FaLinkedin />
+            </Link>
           </span>
         </div>
       </ContentWrapper>
